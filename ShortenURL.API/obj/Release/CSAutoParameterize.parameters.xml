@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ShortenURL-Web.config Connection String" description="ShortenURL Connection String used in web.config by the application to access the database." defaultValue="Data Source=d365dotblog.database.windows.net;Initial Catalog=ShortenURL;User ID=shortenurl;Password=P@ssword123;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dhara\\source\\repos\\URLShorten\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ShortenURL']/@connectionString" />
+  </parameter>
+</parameters>
